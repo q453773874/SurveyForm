@@ -1,0 +1,40 @@
+body {
+  background: #a9d7d1;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+input:focus {
+  border:2px solid blue;
+}
+header {
+  font-weight:bold;
+  text-align:center;
+}
+#form-container {
+  background-color:white;
+  // text-align:center;
+  padding:20px;
+  width:70%;
+  margin:0 auto;
+  text-align:center;
+}
+#row {
+  margin-bottom:10px;
+}
+#left {
+  display:inline-block;
+  text-align:right;
+  width:40%;
+}
+#right {
+  display:inline-block;
+  text-align:left;
+  width:49%;
+}
+li {
+  margin-left:-40px;
+}
+button {
+  border-radius:10px;
+  background-color:#59ace0;
+  padding:10px;
+}
